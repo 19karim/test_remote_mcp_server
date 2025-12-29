@@ -1,4 +1,3 @@
-powershell -Command "@" > README.md
 # Remote MCP Server
 
 ## Description
@@ -24,6 +23,11 @@ Features include:
 ```bash
 git clone https://github.com/19karim/test_remote_mcp_server.git
 cd test_remote_mcp_server
+```
+
+2. Requirements:
+```bash
 uv init
 uv install
 uv run main.py
+```
